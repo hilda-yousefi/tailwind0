@@ -1,0 +1,23 @@
+@font-face {
+  font-family: cube.6cd810dd.6cd810dd;
+  src: url(../../Fonts/cube.6cd810dd.6cd810dd.woff);
+}
+@font-face {
+  font-family: iranyekanwebbold;
+  src: url(../../Fonts/iranyekanwebbold.e298fdc6.e298fdc6.woff);
+}
+@font-face {
+  font-family: iranyekanwebmedium;
+  src: url(../../Fonts/iranyekanwebextrabold.woff);
+}
+@font-face {
+  font-family: iranyekanwebregular;
+  src: url(../../Fonts/iranyekanwebregular.b95439c1.b95439c1.woff);
+}
+@font-face {
+  font-family: cube.6cd810dd.6cd810dd;
+  src: url(../../Fonts/iranyekanwebregular.e31c09af.woff2);
+}
+@theme {
+  --font-regular: "iranyekanwebregular", sans-serif;
+}

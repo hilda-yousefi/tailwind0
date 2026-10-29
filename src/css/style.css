@@ -1,0 +1,86 @@
+@import "tailwindcss";
+@import "./fonts.css";
+/*story*/
+section.ads .swiper-button-next,
+section.ads .swiper-button-prev,
+section.shegeft .swiper-button-next,
+section.shegeft .swiper-button-prev {
+  position: absolute;
+  border: rgb(221, 215, 215) solid 1px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: white;
+}
+section.slider div.swiper-button-next > svg,
+section.slider div.swiper-button-prev > svg,
+section.ads .swiper-button-next > svg,
+section.ads .swiper-button-prev > svg,
+section.shegeft .swiper-button-next,
+section.shegeft .swiper-button-prev {
+  width: 7px;
+  height: 11px;
+  font-size: 10px;
+  color: black;
+}
+/*ads*/
+section.ads .swiper-pagination-bullet-active,
+section.shegeft > .swiper-pagination-bullet-active {
+  background-color: whitesmoke;
+  padding: 4px 9px;
+  border-radius: 12px;
+}
+section.ads .swiper-pagination-bullet,
+section.shegeft .swiper-pagination-bullet {
+  width: 4px;
+  height: 4px;
+}
+section.ads .swiper-button-next > svg,
+section.ads .swiper-button-prev > svg {
+  width: 7px !important;
+  height: 11px !important;
+}
+section.shegeft div.swiper-button-next,
+section.shegeft div.swiper-button-prev {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+}
+section.shegeft div.swiper-button-next > svg,
+section.shegeft div.swiper-button-prev > svg {
+  width: 6px;
+  height: 20px;
+}
+section.shegeft div.swiper-button-prev {
+  right: 13% !important;
+  top: 50%;
+}
+section.shegeft div.swiper-button-next {
+  top: 50%;
+}
+section.brands div.swiper-button-next > svg,
+section.brands div.swiper-button-prev > svg,
+section.covers div.swiper-button-next > svg,
+section.covers div.swiper-button-prev > svg,
+section.vitamin div.swiper-button-next > svg,
+section.vitamin div.swiper-button-prev > svg,
+section.mobile div.swiper-button-next > svg,
+section.mobile div.swiper-button-prev > svg,
+section.airpod div.swiper-button-next > svg,
+section.airpod div.swiper-button-prev > svg,
+section.car div.swiper-button-next > svg,
+section.car div.swiper-button-prev > svg,
+section.travel div.swiper-button-next > svg,
+section.travel div.swiper-button-prev > svg,
+section.portable div.swiper-button-next > svg,
+section.portable div.swiper-button-prev > svg,
+section.cream div.swiper-button-next > svg,
+section.cream div.swiper-button-prev > svg,
+section.sell div.swiper-button-next > svg,
+section.sell div.swiper-button-prev > svg,
+section.hot div.swiper-button-next > svg,
+section.hot div.swiper-button-prev > svg {
+  width: 8px;
+  color: rgb(67, 65, 65);
+  text-align: center;
+}
